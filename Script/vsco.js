@@ -7,7 +7,7 @@
 *****************************************
 
 [rewrite_local]
-^https:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/?(.*?)*$) url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/vsco.js
+^https:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/?(.*?)*$) url script-response-body https://raw.githubusercontent.com/iKath/Cola/main/Script/vsco.js
 
 [mitm]
 hostname = api.revenuecat.com
@@ -15,7 +15,7 @@ hostname = api.revenuecat.com
 ****************************************/
 
 
-var Kath = JSON.parse($response.body);
+var kath = JSON.parse($response.body);
 
 kath = {
   "request_date_ms" : 1684774345008,
