@@ -6,8 +6,7 @@
 [rewrite_local]
   
 
-^https?:\/\/api\.tipsoon\.com\/api\/v1\/user\/info url script-response-body https://github.com/ddgksf2013/dev/raw/main/JianXunProCrack.js
-
+^https?:\/\/api\.tipsoon\.com\/api\/v1\/user\/info url script-response-body https://raw.githubusercontent.com/iKath/Cola/main/Script/Jianxun.js
 
 [mitm] 
 
