@@ -31,11 +31,9 @@ if (typeof $response == "undefined") {
   var UA = $request.headers['user-agent'];
   const app = 'gd';
   const UAMappings = {
-    'APTV': { name: 'pro', id: 'com.kimen.aptvpro.lifetime' },
     'VSCO':{ name: 'pro', id: 'vscopro_global_5999_annual_AutoFreeTrial'},
     'TouchRetouchBasic':{ name: 'premium', id: 'tr5_yearlysubsc_20dlrs_1'},
     'Photomator':{ name: 'pixelmator_photo_pro_access', id: 'pixelmator_photo_yearly_v1'},
-    'lilbucket':{ name: 'pro', id: 'bucket_lifetime'},
 
 
     
