@@ -8,7 +8,7 @@
 
 [rewrite_local]
 
-https:\/\/buy\.itunes\.apple\.com\/verifyReceipt url script-response-body https://raw.githubusercontent.com/kath/Rewrite/main/Pandora.js
+https:\/\/buy\.itunes\.apple\.com\/verifyReceipt url script-response-body https://raw.githubusercontent.com/iKath/Cola/main/Script/Pandora.js
 
 [mitm]
 
