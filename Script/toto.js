@@ -13,7 +13,7 @@
 **************************************
 
 [rewrite_local]
-^https:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/(.*?)*$) url script-response-body https://raw.githubusercontent.com/kath/Rewrite/main/ttqjt.js
+^https:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/(.*?)*$) url script-response-body https://raw.githubusercontent.com/iKath/Cola/main/Script/toto.js
 
 [mitm]
 hostname = api.revenuecat.com
