@@ -1,0 +1,15 @@
+[Rule]
+# 微信小程序去广告通用规则
+DOMAIN, wxsnsdy.wxs.qq.com, REJECT
+DOMAIN, wxsmsdy.video.qq.com, REJECT
+DOMAIN, wxsnsdythumb.wxs.qq.com, REJECT
+
+# 收钱吧 - 买单小程序去广告
+DOMAIN, ads-shopping.shouqianba.com, REJECT
+
+[Rewrite]
+# 收钱吧 - 买单小程序去广告
+^https:\/\/api\.pinduoduo\.com\/api\/ktt_gateway\/activity\/feeds\/personal_home_page\/ reject
+
+[Mitm]
+hostname = api.pinduoduo.com, ads-shopping.shouqianba.com
